@@ -1,0 +1,218 @@
+.Features {
+  color: #f1f1f1;
+  padding: 50px;
+  text-align: center;
+  background-color: #656565;
+}
+
+.Features h2 {
+  font-size: 50px;
+}
+
+.Features .icon {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  font-size: 50px;
+  padding: 50px;
+  margin: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 90px;
+}
+
+.Features .icon .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Features .icon .item i#lightning {
+  color: #ddcf0a;
+}
+
+.Features .icon .item i#heart {
+  color: #f44336;
+}
+
+.Features .icon .item i#camera {
+  color: #d7e609;
+}
+
+.Features .icon .item i#power {
+  color: #0c800c;
+}
+
+.Features .icon .item i#gem {
+  color: #f1f1f1;
+}
+
+.Features .icon .item i#cloud {
+  color: #1d8af0;
+}
+
+.Features .icon .item i#globe {
+  color: #ddcf0a;
+}
+
+.Features .icon .item i#jumbo {
+  color: #1df0c2;
+}
+
+.Features .icon .item i#person {
+  color: #f1f1f1;
+}
+
+.Features .icon .item i#shield {
+  color: #ddcf0a;
+}
+
+.Features .icon .item i.wifi {
+  color: #aa9797;
+}
+
+.Features .icon .item i#image {
+  color: #b91a9f;
+}
+
+.Features .icon p {
+  padding: 5px;
+  font-size: 20px;
+  color: #f1f1f1;
+}
+
+@media (max-width: 600px) {
+  .Features .icon .Features .icon .item {
+    width: 50%;
+  }
+  .Features .icon #table {
+    width: 100%;
+    background-color: #f1f1f1;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    display: block;
+    gap: 25px;
+  }
+}
+
+#table {
+  background-color: #f1f1f1;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 80px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 25px;
+}
+
+.pricing-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1000px;
+  margin: 0 auto;
+  gap: 24px;
+}
+
+.pricing-card {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-transition: 0.3s ease, -webkit-box-shadow 0.3s ease;
+  transition: 0.3s ease, -webkit-box-shadow 0.3s ease;
+  transition: 0.3s ease, box-shadow 0.3s ease;
+  transition: 0.3s ease, box-shadow 0.3s ease, -webkit-box-shadow 0.3s ease;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.pricing-card:hover {
+  /* transform: translateY(-10px)scale(1.03); */
+  -webkit-box-shadow: 0 10px 10px #888;
+          box-shadow: 0 10px 10px #888;
+}
+
+#pricing-title {
+  background-color: #656565;
+  color: white;
+  padding: 24px 40px;
+  font-size: 24px;
+}
+
+#pricing-titles {
+  background-color: #f44336;
+  padding: 24px 40px;
+  font-size: 24px;
+  color: #fff;
+}
+
+.pricing-features {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.pricing-features li {
+  padding: 16px;
+  border-bottom: 1px solid #aa9797;
+}
+
+.pricing-amount {
+  font-size: 32px;
+  padding: 20px 0 4px 0;
+}
+
+.pricing-period {
+  color: #888;
+  padding-bottom: 20px;
+}
+
+.pricing-button {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 25px;
+  background-color: #222;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+.pricing-button:hover {
+  background-color: #656565;
+}
+
+.button {
+  background-color: #e2e2e2;
+}
+
+footer {
+  text-align: center;
+  padding: 64px 16px;
+  margin-top: 64px;
+  background-color: #f1f1f1;
+}
+
+footer footer p {
+  margin-top: 30px;
+}
+/*# sourceMappingURL=style.css.map */

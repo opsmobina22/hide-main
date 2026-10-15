@@ -1,0 +1,224 @@
+@import 'color';
+@import'space';
+
+
+
+
+.Features {
+    color: $text-white;
+    padding: $p-5;
+    text-align: center;
+    background-color: $bg-secondry;
+
+    h2 {
+        font-size: $p-5;
+    }
+
+    .icon {
+
+        flex-wrap: wrap;
+        font-size: $p-5;
+        padding: $p-5;
+        margin: $mb-2;
+        display: flex;
+        gap: 90px;
+
+        .item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            // margin-right: $mr-3;
+
+            i#lightning {
+                color: $bg-darkyellow;
+
+            }
+
+            i#heart {
+                color: $bg-primary;
+            }
+
+            i#camera {
+                color: $bg-yellow;
+            }
+
+            i#power {
+                color: $bg-green;
+            }
+
+            i#gem {
+                color: $text-white;
+            }
+
+            i#cloud {
+                color: $bg-blue;
+            }
+
+            i#globe {
+                color: $bg-darkyellow;
+            }
+
+            i#jumbo {
+                color: $bg-turquoise;
+            }
+
+            i#person {
+                color: $text-white;
+            }
+
+            i#shield {
+                color: $bg-darkyellow;
+
+            }
+
+            i.wifi {
+
+                color: $bg-gray;
+
+            }
+
+            i#image {
+
+                color: $bg-magenta;
+            }
+
+        }
+
+        p {
+
+            padding: $pad-0;
+            font-size: $pad-2;
+            color: $text-white;
+
+        }
+
+        @media(max-width:600px) {
+            .Features .icon .item {
+                width: 50%;
+
+            }
+
+            #table {
+                width: 100%;
+                background-color: $text-white;
+                text-align: center;
+                margin-top: 40px;
+                margin-bottom: 80px;
+                flex-wrap: wrap;
+                display: block;
+                gap: 25px;
+            }
+        }
+    }
+
+
+
+
+}
+
+#table {
+    background-color: $text-white;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 25px;
+
+}
+
+
+
+.pricing-container {
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+    gap: 24px;
+
+}
+
+.pricing-card {
+    flex: 1;
+    transition: 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+    border: 1px solid #ddd;
+
+}
+
+.pricing-card:hover {
+    /* transform: translateY(-10px)scale(1.03); */
+    box-shadow: 0 10px 10px #888;
+}
+
+#pricing-title {
+    background-color: $bg-secondry;
+    color: white;
+    padding: 24px 40px;
+    font-size: 24px;
+
+}
+
+#pricing-titles {
+    background-color: $bg-primary;
+    padding: 24px 40px;
+    font-size: 24px;
+    color: #fff;
+
+}
+
+.pricing-features {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.pricing-features li {
+    padding: 16px;
+    border-bottom: 1px solid $bg-gray;
+}
+
+.pricing-amount {
+    font-size: 32px;
+    padding: 20px 0 4px 0;
+}
+
+.pricing-period {
+    color: #888;
+    padding-bottom: 20px;
+}
+
+.pricing-button {
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    background-color: $bg-dark;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.pricing-button:hover {
+    background-color: $bg-secondry;
+}
+
+
+
+.button {
+    background-color: $bg-button;
+}
+
+footer {
+    text-align: center;
+    padding: 64px 16px;
+    margin-top: 64px;
+    background-color: #f1f1f1;
+
+
+    footer p {
+        margin-top: 30px;
+
+    }
+}
