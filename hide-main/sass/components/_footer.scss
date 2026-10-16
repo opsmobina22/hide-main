@@ -1,0 +1,17 @@
+@import '../base/color';
+@import '../base/color';
+footer {
+    text-align: center;
+    padding: 64px 16px;
+    margin-top: 64px;
+    background-color: #f1f1f1;
+
+.social:hover {
+    color: $bg-secondry;
+}
+
+    footer p {
+        margin-top: 30px;
+
+    }
+}

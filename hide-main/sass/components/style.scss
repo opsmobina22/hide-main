@@ -1,0 +1,39 @@
+
+@import '../base/color';
+@import '../base/space';
+@import '../components/features';
+@import '../components/footer';
+@import '../components/pricelist';
+
+
+@media(max-width:600px) {
+    icon {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        font-size: $p-5;
+        padding: $p-5;
+        margin: $mb-2;
+        gap: 90px;
+    }
+
+    .Features .icon .item {
+        width: 50%;
+
+    }
+
+    #table {
+        width: 100%;
+        background-color: $text-white;
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 80px;
+        flex-wrap: wrap;
+        display: block;
+        gap: 25px;
+    }
+
+    .pricing-title {
+        margin-bottom: 80px;
+    }
+}
+

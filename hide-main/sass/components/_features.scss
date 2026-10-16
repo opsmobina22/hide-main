@@ -1,0 +1,113 @@
+@import '../base/color';
+@import '../base/color';
+.Features {
+    color: $text-white;
+    padding: $p-5;
+    text-align: center;
+    background-color: $bg-secondry;
+
+    h2 {
+        font-size: $p-5;
+    }
+
+    .icon {
+        display: flex;
+        font-size: $p-5;
+        padding: $p-5;
+        margin: $mb-2;
+        flex-wrap: wrap;
+        gap: 20px;
+
+        .item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            // margin-right: $mr-3;
+
+            i#lightning {
+                color: $bg-darkyellow;
+
+            }
+
+            i#heart {
+                color: $bg-primary;
+            }
+
+            i#camera {
+                color: $bg-yellow;
+            }
+
+            i#power {
+                color: $bg-green;
+            }
+
+            i#gem {
+                color: $text-white;
+            }
+
+            i#cloud {
+                color: $bg-blue;
+            }
+
+            i#globe {
+                color: $bg-darkyellow;
+            }
+
+            i#jumbo {
+                color: $bg-turquoise;
+            }
+
+            i#person {
+                color: $text-white;
+            }
+
+            i#shield {
+                color: $bg-darkyellow;
+
+            }
+
+            i#wifi {
+
+                color: $bg-gray;
+
+            }
+
+            i#image {
+
+                color: $bg-magenta;
+            }
+
+        }
+
+        p {
+            margin: 16px 0;
+            width: 120px;
+            font-size: $pad-2;
+            color: $text-white;
+
+        }
+
+
+    }
+
+
+
+
+}
+@media(max-width:600px) {
+   .Features .icon {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        font-size: $p-5;
+        padding: $p-5;
+        margin: $mb-2;
+        gap: 90px;
+    }
+
+    .Features .icon .item {
+        width: 50%;
+
+    }
+
+    
+}
